@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="bindings">
+      <UniqueIdentifier>{53306E87-3FFD-C892-6816-B73A5442FE20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="view">
+      <UniqueIdentifier>{60909F7C-4CC7-A00D-F5B3-8610E1C91C0F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\bindings\imgui_impl_glfw.cpp">
+      <Filter>bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\imgui_impl_opengl3.cpp">
+      <Filter>bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="view\Window.cpp">
+      <Filter>view</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
