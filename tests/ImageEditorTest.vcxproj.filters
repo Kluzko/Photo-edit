@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{61705900-4DFC-870B-B6AA-880BA255880B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\bindings">
+      <UniqueIdentifier>{FE128C0A-6AC8-0400-F3BC-FED65F71FB03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src">
+      <UniqueIdentifier>{F8768876-E418-B34C-CDD3-C6A0B9143A9D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\src\view">
+      <UniqueIdentifier>{82925652-EE47-CF47-773C-C91EE3F0C54B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\bindings\imgui_impl_glfw.h">
+      <Filter>..\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\imgui_impl_opengl3.h">
+      <Filter>..\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\imgui_impl_opengl3_loader.h">
+      <Filter>..\bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\view\Window.h">
+      <Filter>..\src\view</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\bindings\imgui_impl_glfw.cpp">
+      <Filter>..\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bindings\imgui_impl_opengl3.cpp">
+      <Filter>..\bindings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>..\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\view\Window.cpp">
+      <Filter>..\src\view</Filter>
+    </ClCompile>
+    <ClCompile Include="test_window.cpp" />
+  </ItemGroup>
+</Project>

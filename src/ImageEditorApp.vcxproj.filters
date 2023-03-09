@@ -9,6 +9,20 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\bindings\imgui_impl_glfw.h">
+      <Filter>bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\imgui_impl_opengl3.h">
+      <Filter>bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bindings\imgui_impl_opengl3_loader.h">
+      <Filter>bindings</Filter>
+    </ClInclude>
+    <ClInclude Include="view\Window.h">
+      <Filter>view</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
     <ClCompile Include="..\bindings\imgui_impl_glfw.cpp">
       <Filter>bindings</Filter>
     </ClCompile>

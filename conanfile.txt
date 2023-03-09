@@ -13,7 +13,6 @@ premake
 [imports]
 bin,*.dll -> ./app
 
-./res/bindings, imgui_impl_opengl3_loader.cpp-> ./bindings
 ./res/bindings, imgui_impl_opengl3.cpp -> ./bindings
 ./res/bindings, imgui_impl_glfw.cpp -> ./bindings
 ./res/bindings, imgui_impl_glfw.h -> ./bindings

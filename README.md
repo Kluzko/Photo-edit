@@ -1,1 +1,1 @@
-# Image editor make with Dear ImgGui
+# Image editor made with Dear ImgGui
