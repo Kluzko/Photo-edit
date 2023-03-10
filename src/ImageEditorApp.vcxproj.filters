@@ -4,8 +4,8 @@
     <Filter Include="bindings">
       <UniqueIdentifier>{53306E87-3FFD-C892-6816-B73A5442FE20}</UniqueIdentifier>
     </Filter>
-    <Filter Include="view">
-      <UniqueIdentifier>{60909F7C-4CC7-A00D-F5B3-8610E1C91C0F}</UniqueIdentifier>
+    <Filter Include="lib">
+      <UniqueIdentifier>{3C8C880B-A895-887C-3111-9F7C9D19947C}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -18,8 +18,9 @@
     <ClInclude Include="..\bindings\imgui_impl_opengl3_loader.h">
       <Filter>bindings</Filter>
     </ClInclude>
-    <ClInclude Include="view\Window.h">
-      <Filter>view</Filter>
+    <ClInclude Include="App.h" />
+    <ClInclude Include="lib\app_base.h">
+      <Filter>lib</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -30,8 +31,5 @@
       <Filter>bindings</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="view\Window.cpp">
-      <Filter>view</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

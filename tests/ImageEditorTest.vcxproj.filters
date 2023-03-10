@@ -10,8 +10,8 @@
     <Filter Include="..\src">
       <UniqueIdentifier>{F8768876-E418-B34C-CDD3-C6A0B9143A9D}</UniqueIdentifier>
     </Filter>
-    <Filter Include="..\src\view">
-      <UniqueIdentifier>{82925652-EE47-CF47-773C-C91EE3F0C54B}</UniqueIdentifier>
+    <Filter Include="..\src\lib">
+      <UniqueIdentifier>{1ED276E3-0A8A-B830-7391-918C5F685321}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -24,8 +24,11 @@
     <ClInclude Include="..\bindings\imgui_impl_opengl3_loader.h">
       <Filter>..\bindings</Filter>
     </ClInclude>
-    <ClInclude Include="..\src\view\Window.h">
-      <Filter>..\src\view</Filter>
+    <ClInclude Include="..\src\App.h">
+      <Filter>..\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\lib\app_base.h">
+      <Filter>..\src\lib</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -37,9 +40,6 @@
     </ClCompile>
     <ClCompile Include="..\src\main.cpp">
       <Filter>..\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\view\Window.cpp">
-      <Filter>..\src\view</Filter>
     </ClCompile>
     <ClCompile Include="test_window.cpp" />
   </ItemGroup>
